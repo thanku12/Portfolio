@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basil K Thankachan - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000000; /* Soft pastel turquoise background */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: #000000;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px; /* Rounded corners for the container */
+        }
+        .wh{
+            color: white;
+        }
+        /* Navigation Bar */
+        .navbar {
+            background-color: #000000; /* Deep purple */
+            overflow: hidden;
+            padding: 15px 0;
+            border-radius: 10px 10px 0 0; /* Rounded top corners for navbar */
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .navbar a:hover, .navbar a.active {
+            background-color: #5f0070; /* Lighter purple */
+            color: white;
+        }
+        /* Header and Profile */
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #050353; /* Bright blue */
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .photo img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background-color: #ddd;
+            margin: 20px auto;
+        }
+        .section-title {
+            font-size: 26px;
+            border-bottom: 3px solid #192cd2;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            color: #5dff58;
+        }
+        .content {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #fcf9f9;
+        }
+       
+        
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+           
+        }
+        /* Underline the project titles */
+.underline-title {
+    text-decoration: underline;
+    color: #ffffff; /* Optional: Add a color to make it stand out */
+}
+
+        .skills ul li {
+            background: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .skills ul li:hover {
+            background: #388e3c; /* Darker green */
+        }
+        .projects {
+            margin-top: 20px;
+        }
+        .link {
+            color: #3498db; /* Bright blue */
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+        @media only screen and (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            .navbar a {
+                font-size: 16px;
+                padding: 12px;
+            }
+            .header h1 {
+                font-size: 32px;
+            }
+            .photo img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#summary">Summary</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header with photo -->
+        <div class="header">
+            <h1>Basil K Thankachan</h1>
+            <p>Bangalore, India | <a class="link" href="mailto:basilkthankachan@gmail.com" style="color:white;">basilkthankachan@gmail.com</a> | +91-7736736193</p>
+            <a class="link" href="https://linkedin.com/in/basil-k-thankachan" style="color:white;">LinkedIn Profile</a>
+            <div class="photo">
+                <img src="https://res.cloudinary.com/dnsjvfoye/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1730913881/1717776640042_rxsxep.jpg" alt="Basil's Photo">
+            </div>
+        </div>
+
+        <!-- Summary Section -->
+        <section id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p class="content">
+                Aspiring Computer Science Engineer with expertise in Python programming, web development, and AI-driven projects. Experienced in building intelligent systems like chatbots and IoT-enabled robotic surveillance. Proficient in AWS services (S3, EC2, Lambda, RDS), with a certification in progress for AWS Cloud Practitioner. Strong problem-solving skills, communication abilities, and a keen interest in leveraging both technical and interpersonal skills for organizational growth. Enthusiastic about continuous learning.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2 class="section-title">Education</h2>
+            <p class="content">
+                <strong>B.Tech in Computer Science Engineering</strong><br>
+                Adi Shankara Institute Of Engineering And Technology | Sept 2020 – July 2024<br>
+                CGPA: 7.18/10
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li class="wh">Python, HTML, CSS, JavaScript</li>
+                <li class="wh">Shell Scripting, Java, SQL, C, OOP</li>
+                <li class="wh">AWS (S3, EC2, Lambda, RDS)</li>
+                <li class="wh">Jenkins, Git, GitHub, Docker, Linux</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <p class="content">
+                <strong class="underline-title">AI-Enabled Robotic Surveillance System for Critical Infrastructure</strong><br>
+                Aug 2023 - May 2024<br>
+                Implemented an obstacle-avoidance wheeled car using Raspberry Pi and sensors, integrated with a camera for anomaly detection. The system captures video clips upon detecting anomalies and sends them to a central monitoring station for enhanced surveillance.
+            </p>
+            
+            <p class="content">
+                <strong class="underline-title">OpenCV Volume Control System</strong><br>
+                Oct 2024<br>
+                Designed and implemented a hand gesture-based volume control system using OpenCV for real-time image processing. The project detects hand gestures through a webcam feed, utilizing contour detection and hand landmarks to interpret user movements. Users can adjust volume by moving their hands, focusing on gesture recognition accuracy and smooth responsiveness.
+            </p>
+            
+            <p class="content">
+                <strong class="underline-title">7Up 7Down Game</strong><br>
+                Oct 2024<br>
+                Developed the core game logic for a 7Up 7Down prediction game in Python. The game randomly generates two numbers representing dice rolls, and players predict if the sum will be greater than, less than, or equal to seven. Focused on creating an efficient and user-friendly experience, including handling game flow, input validation, and scoring.
+            </p>
+            
+            <p class="content">
+                <strong class="underline-title">Ask Me Chatbot</strong><br>
+                Jan 2023 - July 2023<br>
+                Developed an intelligent chatbot utilizing vectorstore for efficient dataset management and similarity search models for optimal data retrieval. Integrated an LLM model to enable natural conversations, enhancing context awareness and conversational intelligence.
+            </p>
+            
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications">
+            <h2 class="section-title">Publications</h2>
+            <p class="content">
+                <strong>A Survey on Video Anomaly Detection in Surveillance System</strong><br>
+                IEEE Xplore, Oct 2024<br>
+                <a class="link" href="https://ieeexplore.ieee.org/document/10690095" target="_blank">View Publication</a>
+            </p>
+        </section>
+    </div>
+</body>
+</html>
